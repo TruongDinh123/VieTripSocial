@@ -1,0 +1,160 @@
+:root{
+    --primary-color: #4C9171;
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --header-height: 120px;
+    --navbar-height: 36px;
+    --header-with-search: calc(var(--header-height) - var(--navbar-height));
+}
+
+.header{
+    display: flex;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-items: center;
+    margin: 0 8px;
+    height: 80px;
+}
+.header__icon{
+    width: 200px;
+    color: var(--while-color);
+}
+
+.header__search{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    height: 40px;
+    background-color: var(--while-color);
+    align-items: center;
+}
+
+.header_search-input{
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color:var(--while-color);
+    padding: 0 16px;
+}
+
+.header_search-btn{
+    background: #fb5533;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    height: 34px;
+    width: 60px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.header_search-btn:hover{
+    background-color:#f6674b ;
+}
+
+
+.header_search-btn-icon{
+    color: var(--while-color);
+    font-size: 1.4rem;
+
+}
+
+.header__user{
+    width: 150px;
+    text-align: center;
+}
+
+.header__user-icon{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.header__user-name{
+    margin-left: 4px;
+    font-size: 1.6rem;
+    color: var(--while-color);
+}
+
+
+/* Footer */
+.footer{
+    padding-top: 16px;
+    border-top: 6px solid #32816B;
+}
+
+.footer_heading{
+    font-size: 1.6rem;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.footer-icon{
+    font-size: 1.5rem;
+    margin: -1px 6px 0 0;
+}
+
+.footer-icon:hover{
+    color: #EE4D2D;
+}
+
+
+.footer-item_link{
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #737373;
+}
+
+.footer-item_link:hover{
+    color: #4C9171;
+}
+
+.footer_download{
+    display: flex;
+}
+.footer_qr-img{
+    width: 76px;
+    border: 1px solid #ccc;
+}
+
+.footer_download-apps{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-android{
+    width: 76px;
+    height: 16px;
+}
+
+.footer-ios{
+    width: 76px;
+    height: 16px;
+}
+
+.footer_text{
+    padding: 16px 0;
+    font-size: 1.6rem;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.grid_text{
+    width: 100%;
+}
+
+
+

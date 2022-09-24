@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleHan.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./trangdangki/assets/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+
+
+</head>
+<div>
+
+    <div class="content"></div>
+
+    <footer class="footer">
+      <div class="grid">
+          <div class="grid_row">
+              <div class="grid_column-2-4">
+                  <h1 class="footer_heading">VieTripSocial</h1>
+                  <h4>Hướng dẫn sử dụng</h4>
+                  
+              </div>
+
+              <div class="grid_column-2-4">
+                  <h4 class="footer_heading">NỘI DUNG</h4>
+
+                  <ul class="footer-list">
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">Trang chủ</a>
+                      </li>
+
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">Mạng xã hội</a>
+                      </li>
+
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">Đặt Tour</a>
+                      </li>
+
+                  </ul>
+              </div>
+
+              <div class="grid_column-2-4">
+                  <h4 class="footer_heading">PHÁP LÝ</h4>
+
+                  <ul class="footer-list">
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">Điều khoản sử dụng</a>
+                      </li>
+
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">Quyền riêng tư</a>
+                      </li>
+                      
+                  </ul>
+              </div>
+
+              <div class="grid_column-2-4">
+                  <h4 class="footer_heading">KẾT NỐI</h4>
+
+                  <ul class="footer-list">
+                      <li class="footer-item">
+                          <a href="" class=" footer-item_link">
+                              <i class="footer-icon fa-brands fa-facebook"></i>
+                              Facebook
+
+                          </a>
+                      </li>
+
+                      <li class="footer-item">
+                          <a href="" class="footer-item_link">
+                              <i class="footer-icon fa-brands fa-instagram"></i>
+                              Instagram 
+                          </a>
+
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="grid_column-2-4">
+                  <h4 class="footer_heading">TẢI ỨNG DỤNG</h4>
+
+                  <div class="footer_download">
+                      <div>
+                          <img class="footer_qr-img" src="./trangdangki/assets/images/QRCode.png" alt="">
+                      </div>
+                  
+                      <div class="footer_download-apps">
+                          <a href="" class="">
+                              <img src="./trangdangki/assets/images/Andoird.png" alt="" class="footer-android">                                    
+                          </a>
+
+                          <a href="" class="">
+                              <img src="./trangdangki/assets/images/IOS.png" alt="" class="footer-ios">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="grid grid_text">
+        <p class="footer_text">
+            @ 2019 - VieTripSocial
+        </p> 
+    </div>
+  </footer>
+</div>
+      
+
+
+
+
+
+
+      <!-- Form đăng kí -->
+      <!--<div class="register"> 
+          <form action="" method="POST" class="form" id="form-1">
+            <h3 class="heading">ĐĂNG KÝ</h3>
+        
+            <div class="spacer"></div>
+        
+            <div class="form-group">
+              <label for="fullname" class="form-label">Tên đầy đủ</label>
+              <input id="fullname" name="fullname" type="text" placeholder="VD: Sơn Đặng" class="form-control">
+              <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+              <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+              <label for="password" class="form-label">Mật khẩu</label>
+              <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+              <span class="form-message"></span>
+            </div>
+        
+            <div class="form-group">
+              <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+              <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+              <span class="form-message"></span>
+            </div>
+        
+            <button class="form-submit">Đăng ký</button>
+          </form> 
+        </div>
+      <script src="./validator.js"></script>
+      <!-- <script>
+        //Validate đăng kí
+            Validator({
+                form: '#form-1',
+                formGroupSelector: '.form-group',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#fullname'),
+                    Validator.isRequired('#password'),
+                    Validator.isRequired('#email'),
+                    Validator.isEmail('#email'),
+                    Validator.minLength('#password'),
+                    Validator.isPassConfirm('#password_confirmation', function(){
+                      return document.querySelector('#form-1 #password').value;
+                    }, 'Mật khẩu nhập lại không chính xác')
+                
+                    //Nếu có 2 rule trùng id sẽ ưu tiên lấy thằng cuối
+                  ],
+                onSubmit: function(data){
+                  console.log(data)
+                }
+            });
+      </script> -->
+</body>
+</html>
+
+<!-- Tạo Validator -> tạo các rules -> get E của form -> duyệt qua từng E và validate
+submit form -> xử lý blur -> xử lý input  -->
