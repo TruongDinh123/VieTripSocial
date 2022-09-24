@@ -79,8 +79,70 @@
     color: var(--while-color);
 }
 
+/* =======================================================Container===================================================== */
+.container{
+    background-color: #F1F8EC;
+}
 
-/* Footer */
+.sidebar{
+    background-color: var(--while-color);
+    border-radius: 2px;
+}
+
+.sidebar-icon{
+    font-size: 1.6rem;
+    margin-right: 8px;
+}
+
+.sidebar_heading{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color:#333;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-list{
+    list-style: none;
+    padding: 0 0 10px;
+}
+
+.sidebar-item{
+    position: relative;
+}
+
+.sidebar-item::before{
+    content: "";
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+}
+
+.sidebar-item_link{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+
+    /* Chạy chữ */
+    transition: right linear 0.1s;
+    right: 0;
+}
+
+.sidebar-item_link:hover{
+    right: -4px;
+    color: #f66244;
+}
+
+
+/*========================================================Footer========================================================*/
 .footer{
     padding-top: 16px;
     border-top: 6px solid #32816B;

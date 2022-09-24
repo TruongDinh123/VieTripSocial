@@ -37,7 +37,14 @@ html{
     margin-right: -12px;
 }
 
-.grid_column-2{
+.grid_column-sidebar{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+
+}
+
+.grid_column-location{
     padding-left: 12px;
     padding-right: 12px;
     width: 16.6667%;
@@ -50,8 +57,10 @@ html{
     width: 20%;
 }
 
-.grid_column-10{
+
+
+.grid_column-content{ /*  100/12 x 8 */
     padding-left: 12px;
     padding-right: 12px;
-    width: 83.3333%;
+    width: 66.66667%;
 }
